@@ -126,7 +126,7 @@ $(document).ready(function () {
               "colvis",
             ]
           });
-          var addButton = '<button type="button" class=" dt-button " style="background-color:blue !important;color:white;" data-bs-toggle="modal" id="addModal" data-bs-target="#addModal"><i class="bi bi-plus-circle"></i> Ajouter un remboursements</button>';
+          var addButton = '<button type="button" class=" dt-button " style="background-color:blue !important;color:white;" data-bs-toggle="modal" id="addModal" data-bs-target="#addModal"><i class="bi bi-plus-circle"></i> Ajouter un remboursement</button>';
           $('.dt-buttons').prepend(addButton);
       }
       ,
