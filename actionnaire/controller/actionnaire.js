@@ -247,7 +247,7 @@ $(document).ready(function () {
   });
 
   $(document).on("click", ".edit-button", function () {
-    $("#updateForm").show();
+    $("#updateInputs").html("");
     $("#updateModal").modal("show");
     let id = $(this).data("id");
     id=$.trim(id)
